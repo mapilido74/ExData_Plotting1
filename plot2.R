@@ -11,7 +11,7 @@
 
 setwd("F:/Exploratory Data Analysis/Project/Part 1")
 
-## Reading the data and remove "?"
+## Read the data and remove "?"
 
 
 data <- read.csv("./household_power_consumption.txt", header=TRUE, sep=';', na.strings="?")
@@ -62,7 +62,7 @@ plot(data_SS$Global_active_power~data_SS$Datetime, type="l",
 
 
 
-## Saving the histogram into png file
+## Save the histogram into png file
 
 dev.copy(png, file="plot2.png", height=480, width=480)
 
