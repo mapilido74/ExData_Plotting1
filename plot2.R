@@ -53,7 +53,7 @@ dim(data_SS) ## Now  2880    10
 
 str(data_SS)
 
-## Plot 1: "Global Active Power" vs "Date and Time"
+## Plot 2: "Global Active Power" vs "Date and Time"
 
 ?plot
 
