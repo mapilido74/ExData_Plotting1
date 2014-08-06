@@ -41,8 +41,6 @@ str(data_SS) ## 2880 9
 rm(data)
 
 
-str(data_SS) ## Now 2880 10
-
 ## Plot 1: Histogram "Global Active Power" vs "Frequency"
 
 hist(data_SS$Global_active_power, main="Global Active Power", 
