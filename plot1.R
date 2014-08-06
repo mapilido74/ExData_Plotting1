@@ -41,15 +41,6 @@ str(data_SS) ## 2880 9
 rm(data)
 
 
-## Converting dates: Put together Date and Time
-
-
-datetime <- paste(as.Date(data_SS$Date), data_SS$Time)
-
-## Add datetime to the subset of the data "data_SS"
-
-data_SS$Datetime <- as.POSIXct(datetime)
-
 str(data_SS) ## Now 2880 10
 
 ## Plot 1: Histogram "Global Active Power" vs "Frequency"
