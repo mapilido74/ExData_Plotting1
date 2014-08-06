@@ -36,7 +36,7 @@ dim(data_SS)
 
 str(data_SS) ## 2880 9
 
-## Removing data form the memory
+## Removing data from the memory
 
 rm(data)
 
