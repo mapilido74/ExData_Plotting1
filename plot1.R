@@ -16,7 +16,7 @@ setwd("F:/Exploratory Data Analysis/Project/Part 1")
 
 data <- read.csv("./household_power_consumption.txt", header=TRUE, sep=';', na.strings="?")
 
-## Checking characteristics for the data
+## Checking characteristics of the data
 
 names(data)
 dim(data)  ## 2075259 9
