@@ -11,7 +11,7 @@
 
 setwd("F:/Exploratory Data Analysis/Project/Part 1")
 
-## Reading the data and remove "?"
+## Read the data and remove "?"
 
 
 data <- read.csv("./household_power_consumption.txt", header=TRUE, sep=';', na.strings="?")
