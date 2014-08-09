@@ -59,7 +59,7 @@ with(data_SS, {
          ylab="Global Active Power", cex.lab=0.75, cex.axis=0.75)    
     
     plot(Voltage~Datetime, type="l", xlab="datetime",
-         ylab="Voltage", cex=0.5, cex.axis=0.75)
+         ylab="Voltage", cex=0.75, cex.axis=0.75)
     
     plot(Sub_metering_1~Datetime, type="l", 
          xlab="", ylab="Energy sub metering", cex.lab=0.75, cex.axis=0.75)
@@ -68,7 +68,7 @@ with(data_SS, {
     legend("topright", legend=c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"),
            col=c("black", "red", "blue"), lty=1, lwd=0.5, bty="n", cex=0.70)         
     
-    plot(Global_reactive_power~Datetime, type="l", xlab="",
+    plot(Global_reactive_power~Datetime, type="l", xlab="datetime",
          ylab="Global_reactive_power", cex.lab=0.75, cex.axis=0.75)
 })
 
